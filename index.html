@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="contact-section">
+
+        <div class="contact-box animate">
+
+            <h2>Contact Us</h2>
+            <p>Feel free to send us your queries anytime.</p>
+
+            <form id="contactForm" class="contact-form">
+
+                <div class="input-group">
+                    <input type="text" id="name" required>
+                    <label>Your Name</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="text" id="phone" required>
+                    <label>Phone Number</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="email" id="email" required>
+                    <label>Your Email</label>
+                </div>
+
+                <div class="input-group">
+                    <textarea id="message" rows="4" required></textarea>
+                    <label>Your Message</label>
+                </div>
+
+                <button type="submit" class="btn">Send Message</button>
+
+                <p id="successMsg">Your message has been sent!</p>
+
+            </form>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
